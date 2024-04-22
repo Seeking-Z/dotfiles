@@ -79,4 +79,34 @@ inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
+" 与系统通用剪切板
 set clipboard=unnamedplus
+
+" 开启文件类型检查
+filetype indent on
+
+" 不在单词内部折行
+set linebreak
+
+" 自动高亮匹配符号
+set showmatch
+
+" 搜索时高亮结果
+set hlsearch
+
+" 保留撤销历史
+set undofile
+
+" 自动切换工作目录
+set autochdir
+
+" 开启文件监视
+set autoread
+
+" 命令模式下的TAB自动补全
+set wildmenu
+set wildmode=list
+
+" 设置编码
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,gbk,cp936,gb18030,big5,euc-jp,euc-kr,latin1
