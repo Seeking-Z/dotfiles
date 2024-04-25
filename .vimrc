@@ -80,7 +80,7 @@ inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
 " 与系统通用剪切板
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " 开启文件类型检查
 filetype indent on
